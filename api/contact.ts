@@ -3,7 +3,7 @@ import { Resend } from "resend";
 import {
   CONTACT_EMAIL_FALLBACK,
   validateContactForm,
-} from "../src/lib/contact";
+} from "../src/lib/contact.js";
 
 interface ContactRequestBody {
   name?: unknown;
