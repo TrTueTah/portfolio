@@ -18,18 +18,33 @@ The site is an interactive 3D experience built with React Three Fiber:
 ## :bangbang: Folder Structure
 
 <!--- FOLDER_STRUCTURE_START --->
-
 ```bash
 tanhtran-portfolio/
   |- api/
     |-- contact.ts
+  |- emails/
+    |-- contact-admin.html
+    |-- contact-thank-you.html
   |- public/
   |- src/
     |-- components/
+      |--- Button.tsx
+      |--- CanvasLoader.tsx
+      |--- GolangLogo.tsx
+      |--- HeroCamera.tsx
+      |--- Iphone.tsx
+      |--- Macbook.tsx
+      |--- NestLogo.tsx
+      |--- ReactLogo.tsx
+      |--- RubikCube.tsx
+      |--- StarsCanvas.tsx
+      |--- TechBall.tsx
     |-- constants/
       |--- index.ts
     |-- hooks/
+      |--- useCanvasTexture.ts
       |--- useScreenTexture.ts
+      |--- useSlideshowTexture.ts
     |-- lib/
       |--- contact.ts
       |--- motion.ts
@@ -49,12 +64,19 @@ tanhtran-portfolio/
     |-- main.tsx
     |-- vite-env.d.ts
   |- .env.example
+  |- .env/.env.local
+  |- .gitignore
+  |- .prettierrc
   |- eslint.config.js
   |- index.html
   |- package.json
+  |- pnpm-lock.yaml
+  |- pnpm-workspace.yaml
+  |- tsconfig.app.json
+  |- tsconfig.json
+  |- tsconfig.node.json
   |- vite.config.ts
 ```
-
 <!--- FOLDER_STRUCTURE_END --->
 
 ## :toolbox: Getting Started
@@ -107,7 +129,6 @@ The site also uses React Three Fiber, drei, GSAP and Motion.
 ### Dependencies
 
 <!--- DEPENDENCIES_START --->
-
 - [@babel/core](https://www.npmjs.com/package/@babel/core): ^7.29.7
 - [@eslint/js](https://www.npmjs.com/package/@eslint/js): ^10.0.1
 - [@gsap/react](https://www.npmjs.com/package/@gsap/react): ^2.1.2
